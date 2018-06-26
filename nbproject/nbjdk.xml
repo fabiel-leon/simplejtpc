@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".." name="AppEngineSimpleJTPC2">
+    <property file="nbproject/nbjdk.properties"/>
+    <property location="${netbeans.user}/build.properties" name="user.properties.file"/>
+    <property file="${user.properties.file}"/>
+    <import file="jdk.xml"/>
+    <target depends="-jdk-init" name="runserver">
+        <ant inheritall="false" target="runserver"/>
+    </target>
+    <target depends="-jdk-init" name="compile-selected-files-in-src">
+        <ant antfile="nbproject/ide-file-targets.xml" inheritall="false" target="compile-selected-files-in-src"/>
+    </target>
+</project>

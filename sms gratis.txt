@@ -1,0 +1,24 @@
+POST http://www.buscanews.com/sms/gratis/acceso
+Content-Type: application/x-www-form-urlencodedCotent:
+cmdenter=&telefono=5352458199&password=imbadbad&image_registrarse.x=-786&image_registrarse.y=-100
+
+Me redirecciona a
+http://www.buscanews.com/sms/gratis/misgrupos?rcd=9435
+
+Luego
+
+GET http://www.buscanews.com/sms/gratis/enviarsms?grupo=194761&nm=familia&suser=568593&rcd=3949
+
+
+luego 
+POST http://www.buscanews.com/sms/gratis/enviarsms
+Datos:
+cmd=enviado&suser=568593&grupo_envio=194761&mensaje=sms+desde+enviar+sms+gratis%A0&remLen=112
+
+de aqui me redirecciona a a esperar
+http://www.buscanews.com/sms/gratis/confirmacion?rcd=5834&suser=568593
+
+
+Luego 
+POST http://www.buscanews.com/sms/gratis/confirmacion
+cmd=ok3261&iduser_invitar=0&mailparainvitar=0&continuar_enviar=1&checkbox1=568593

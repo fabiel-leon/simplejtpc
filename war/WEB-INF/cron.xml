@@ -1,0 +1,14 @@
+<cronentries>
+<!--    <cron>
+        <url>/cron/post/reiniciar</url>
+        <description>Send nightly reports.</description>
+        <schedule>every day 23:30</schedule>
+        <timezone>America/Havana</timezone>
+    </cron>    
+    <cron>
+        <url>/cubapost</url>
+        <description>Start jobs.</description>
+        <schedule>every day 8:00</schedule>
+        <timezone>America/Havana</timezone>
+    </cron>    -->
+</cronentries>
